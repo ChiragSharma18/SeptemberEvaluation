@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <styles
+        jcr:primaryType="nt:unstructured"
+        features="*">
+        <styles jcr:primaryType="nt:unstructured">
+            <description-text
+                jcr:primaryType="nt:unstructured"
+                cssName="description-text"
+                text="Description Text"/>
+            <call-out
+                jcr:primaryType="nt:unstructured"
+                cssName="dark-section"
+                text="Callout area"/>
+            <component-description-text
+                jcr:primaryType="nt:unstructured"
+                cssName="component-description-text"
+                text="Component Description Text"/>
+            <image-grid-caption
+                jcr:primaryType="nt:unstructured"
+                cssName="caption image-grid-caption"
+                text="Image Grid Caption"/>
+        </styles>
+    </styles>
+    <format
+        jcr:primaryType="nt:unstructured"
+        features="bold,italic,underline"/>
+    <misctools
+        jcr:primaryType="nt:unstructured"
+        features="*">
+        <specialCharsConfig jcr:primaryType="nt:unstructured">
+            <chars jcr:primaryType="nt:unstructured">
+                <default_copyright
+                    jcr:primaryType="nt:unstructured"
+                    entity="&amp;copy;"
+                    name="copyright"/>
+                <default_registered
+                    jcr:primaryType="nt:unstructured"
+                    entity="&amp;reg;"
+                    name="registered"/>
+                <default_trademark
+                    jcr:primaryType="nt:unstructured"
+                    entity="&amp;trade;"
+                    name="trademark"/>
+                <apostrophe
+                    jcr:primaryType="nt:unstructured"
+                    entity="&amp;rsquo;"
+                    name="apostrophe"/>
+                <open_quotes
+                    jcr:primaryType="nt:unstructured"
+                    entity="&amp;ldquo;"
+                    name="Opening quote"/>
+                <close_quotes
+                    jcr:primaryType="nt:unstructured"
+                    entity="&amp;rdquo;"
+                    name="Closing quote"/>
+            </chars>
+        </specialCharsConfig>
+    </misctools>
+    <justify
+        jcr:primaryType="nt:unstructured"
+        features="*"/>
+    <control
+        jcr:primaryType="nt:unstructured"
+        features="close"/>
+    <paraformat
+        jcr:primaryType="nt:unstructured"
+        features="*">
+        <formats jcr:primaryType="nt:unstructured">
+            <default_p
+                jcr:primaryType="nt:unstructured"
+                description="Paragraph"
+                tag="p"/>
+            <default_h1
+                jcr:primaryType="nt:unstructured"
+                description="Heading 1"
+                tag="h1"/>
+            <default_h2
+                jcr:primaryType="nt:unstructured"
+                description="Heading 2"
+                tag="h2"/>
+            <default_h3
+                jcr:primaryType="nt:unstructured"
+                description="Heading 3"
+                tag="h3"/>
+            <default_h4
+                jcr:primaryType="nt:unstructured"
+                description="Heading 4"
+                tag="h4"/>
+            <default_h5
+                jcr:primaryType="nt:unstructured"
+                description="Heading 5"
+                tag="h5"/>
+        </formats>
+    </paraformat>
+    <colorformat
+        jcr:primaryType="nt:unstructured"
+        features="*"/>
+</jcr:root>

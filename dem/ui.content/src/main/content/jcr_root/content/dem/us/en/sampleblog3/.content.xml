@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-10-14T12:49:16.308+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/dem/settings/wcm/templates/demtemplate"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="SampleBlog3"
+        sling:resourceType="dem/components/xfpage"
+        blogPublishDate="3 August 2021"
+        blogThumbnail="/content/dam/dem/asset.jpg"
+        blogTitle="SampleBlog3"
+        territoryId="4321">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid"
+            layout="responsiveGrid">
+            <dem_blogheader
+                jcr:created="{Date}2021-09-29T13:20:12.755+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:47:35.739+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-BlogHeader"
+                bgDesc="One of the best mommy bloggers around, Joanna has a really simple looking blog, full to the brim of useful stuff for old and new mothers alike. What I love about this site is the simplicity of the theme, the really current design features and the typography. The blog post ideas are really clever as well and sets Jo’s site apart from all the other mommy bloggers."
+                bgImage="/content/dam/dem/asset.jpg"
+                pghead="Sample Blog 3"
+                textIsRich="true"/>
+            <dem_contactcard
+                jcr:created="{Date}2021-09-29T13:24:49.735+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:48:06.028+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-ContactCard"
+                conthead="Contact">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+                <contlist jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        contdesignation="Trainee"
+                        contemail="Chirag.sharma5233@gmail.com"
+                        contimage="/content/dam/dem/asset.jpg"
+                        contname="Chirag Kumar Sharma"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        contdesignation="Trainee"
+                        contemail="harshit.abrol54545@gmail.com"
+                        contimage="/content/dam/dem/asset.jpg"
+                        contname="Harshit Abrol"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        contdesignation="Developer"
+                        contimage="/content/dam/dem/asset.jpg"
+                        contname="Nowsheen"/>
+                </contlist>
+            </dem_contactcard>
+            <dem_highlights
+                jcr:created="{Date}2021-09-29T13:25:10.051+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:48:47.383+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-Highlights">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="9"/>
+                </cq:responsive>
+                <hltItems jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        hltDesc="Another well thought out and well designed mommy blog. This blog is quite varied in its content as its got a little bit of everything. If you love all things parenting, cooking with kids, craft with the children, health, family travel, stories, charity etc. then this site will give you plenty of inspiration on how you could start your own mommy blog.&#xd;&#xa;&#xd;&#xa;"
+                        hltHead="Highlights 1"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        hltDesc="Motherhood Diaries is an online parenting platform where parents and parents-to-be can share their opinions, expertise and solutions on all topics related to pregnancy and parenting. Leyla, who owns and maintains MHD, builds her traffic through targeting specific keywords related to parenting and creating resources around those phrases. She’s also concentrating her efforts on social channels like Pinterest and Facebook to create lucrative audiences via an alternative traffic source to Google."
+                        hltHead="Highlights 2"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        hltDesc="WeTheParents.org is one of my favorite parent blogs. Rather than getting Mom’s view or Dad’s opinion, you get both sides of the parenting story. The content is a real mixture, Neve, the Mom tends to write about empowering mom stuff whilst her husband, Keane, seems to be a big kid who spends his time playing with and reviewing kids toys."
+                        hltHead="Highlights 3"/>
+                </hltItems>
+            </dem_highlights>
+            <dem_story
+                jcr:created="{Date}2021-09-29T13:25:51.163+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:49:16.304+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-Story">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="9"/>
+                </cq:responsive>
+                <stList jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        stDescription="The main goal of this blog is to make parents’ lives easier by doing the research for them. It can be a pain trawling through Google and to find the best products, so this mom and dad team get geeky finding out which products are the best for the whole family. (And which gear is just a waste of money!)&#xd;&#xa;&#xd;&#xa;The site is beautifully designed and quick to load. It’s a great example of a simple WordPress theme that’s been well customized."
+                        stHeading="Introduction"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        stDescription="My favourite food blog is this one. I think the style, design and tone of voice is just top notch. Lindsay really has blogging down to a fine art, not just with the writing but also in knowing how to make money from blogging. I reckon she has a massive email list which she has built up over the years, that she can use to literally print money with. Targeting her email list with her latest blog posts, affiliate links, deals, offers, coupons will make her plenty of cash each month."
+                        stHeading="Breifing"/>
+                </stList>
+            </dem_story>
+        </root>
+    </jcr:content>
+</jcr:root>

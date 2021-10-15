@@ -1,0 +1,10 @@
+
+<sly data-sly-use.BlogListingModel="${'com.dem.core.models.DemBlogListingModel'}" />
+    <p class="cq-placeholder" data-emptytext="Blog Listing Component" data-sly-test="${wcmmode.edit}"></p>
+<div id ="blgListing" blog-path ="${BlogListingModel.blgPath}" blog-count ="${BlogListingModel.initBgCount}" blog-button-text ="${BlogListingModel.btnText}">
+    <h2>List of Blogs</h2>
+    <ul class="blogs-list-container">
+
+    </ul>
+    <button class="see-more-blogs" data-sly-test="${BlogListingModel.btnText}">${BlogListingModel.btnText}</button>
+</div>

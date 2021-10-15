@@ -1,0 +1,30 @@
+
+
+<sly data-sly-use.contactModel="${'com.dem.core.models.DemContactCardModel'}" />
+<p class="cq-placeholder" data-emptytext="Blog Contact Card Component" data-sly-test="${wcmmode.edit}"></p>
+
+<div class="contact-info-section">
+    <h4> For further information</h4>
+    <ul class="contact-info-container" data-sly-list.contactList= "${contactModel.contlist}">
+        <li data-sly-test="${contactList.contemail}">
+            <a href="mailto:${contactList.contemail}">
+                <div class="info-avatar" style="background-image: url('${contactList.contimage @context='uri'}')"></div>
+                <div class="info-description">
+                    <h5>${contactList.contname}</h5>
+                    <p>${contactList.contdesignation}</p>
+                </div>
+            </a>
+        </li>
+        <li data-sly-test="${!contactList.contemail}">
+            <a style="cursor:default">
+                <div class="info-avatar" style="background-image: url('${contactList.contactimage @context='uri'}')">
+                </div>
+                <div class="info-description">
+                    <h5>${contactList.contname}</h5>
+                    <p>${contactList.contdesignation}</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+

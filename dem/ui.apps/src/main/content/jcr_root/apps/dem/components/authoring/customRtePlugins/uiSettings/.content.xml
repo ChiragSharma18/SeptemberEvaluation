@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <cui jcr:primaryType="nt:unstructured">
+        <inline
+            jcr:primaryType="nt:unstructured"
+            toolbar="[format#bold,format#italic,format#underline,#justify,#lists,links#modifylink,links#unlink,#paraformat,#styles,generichtml#generichtml,misctools#specialchars,misctools#sourceedit,colorformat#colorPicker]">
+            <popovers jcr:primaryType="nt:unstructured">
+                <styles
+                    jcr:primaryType="nt:unstructured"
+                    items="styles:getStyles:styles-pulldown"
+                    ref="styles"/>
+                <paraformat
+                    jcr:primaryType="nt:unstructured"
+                    items="paraformat:getFormats:paraformat-pulldown"
+                    ref="paraformat"/>
+            </popovers>
+        </inline>
+        <dialogFullScreen
+            jcr:primaryType="nt:unstructured"
+            toolbar="[format#bold,format#italic,format#underline,justify#justifyleft,justify#justifycenter,justify#justifyright,lists#unordered,lists#ordered,lists#outdent,lists#indent,links#modifylink,links#unlink,table#createoredit,#paraformat,image#imageProps,#styles,table#createoredit,spellcheck#checktext,generichtml#generichtml,misctools#specialchars,misctools#sourceedit,colorformat#colorPicker]">
+            <popovers jcr:primaryType="nt:unstructured">
+                <styles
+                    jcr:primaryType="nt:unstructured"
+                    items="styles:getStyles:styles-pulldown"
+                    ref="styles"/>
+                <paraformat
+                    jcr:primaryType="nt:unstructured"
+                    items="paraformat:getFormats:paraformat-pulldown"
+                    ref="paraformat"/>
+            </popovers>
+        </dialogFullScreen>
+    </cui>
+</jcr:root>

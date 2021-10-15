@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-10-14T12:42:34.500+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/dem/settings/wcm/templates/demtemplate"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="SampleBlog2"
+        sling:resourceType="dem/components/xfpage"
+        blogPublishDate="3 August 2021"
+        blogThumbnail="/content/dam/dem/asset.jpg"
+        blogTitle="SampleBlog2"
+        territoryId="0098">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid"
+            layout="responsiveGrid">
+            <dem_blogheader
+                jcr:created="{Date}2021-09-29T13:20:12.755+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:41:04.079+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-BlogHeader"
+                bgDesc="Like frugal blogs, making money related blogs have become insanely popular since the global economy has declined in recent years. The want for making more money in order to have a “Ok” quality of life, is increasing year on year. Wages are not rising, jobs are becoming less secure and the cost of living is constantly rising. This is why sites like the ones below in this section are becoming more and more popular."
+                bgImage="/content/dam/dem/asset.jpg"
+                pghead="Sample Blog 2"
+                textIsRich="true"/>
+            <dem_contactcard
+                jcr:created="{Date}2021-09-29T13:24:49.735+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:41:43.078+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-ContactCard"
+                conthead="Contact">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+                <contlist jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        contdesignation="Trainee"
+                        contemail="Chirag.sharma5233@gmail.com"
+                        contimage="/content/dam/dem/asset.jpg"
+                        contname="Chirag Kumar Sharma"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        contdesignation="Trainee"
+                        contemail="harshit.abrol54545@gmail.com"
+                        contimage="/content/dam/dem/asset.jpg"
+                        contname="Harshit Abrol"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        contdesignation="Developer"
+                        contimage="/content/dam/dem/asset.jpg"
+                        contname="Nowsheen"/>
+                </contlist>
+            </dem_contactcard>
+            <dem_highlights
+                jcr:created="{Date}2021-09-29T13:25:10.051+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:42:03.666+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-Highlights">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="9"/>
+                </cq:responsive>
+                <hltItems jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        hltDesc="Side Hustle is an online community of entrepreneurs who’s goal is to gain financial freedom through creating businesses that can help them achieve that. There’s a collection of highly actionable blog posts on how to make additional income on top of your day job wage. They make good use of the podcast medium of content marketing by creating various podcasts with experts talking about a whole range of topics around entrepreneurship, making money online and creating wealth."
+                        hltHead="Highlights 1"/>
+                </hltItems>
+            </dem_highlights>
+            <dem_story
+                jcr:created="{Date}2021-09-29T13:25:51.163+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:42:34.495+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-Story">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="9"/>
+                </cq:responsive>
+                <stList jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        stDescription="A great site, which is highly useful and inspirational for people wanting to change their 9 to 5 lives for something that will allow them to live a little and spend more time with the family. The site is really simple, and something you could build yourself on WordPress in a matter of day, but the content is where this site excels. Podcasts, tools, tutorials and blog posts that target a specific niche is where this guy makes his money. His podcasts are really popular and when you have content that gets a lot of ears and eyes to it, then so will the advertising income."
+                        stHeading="Introduction"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        stDescription="Mommy blogs are blog that are targeted towards parents, particularly women. Here’s my pick on the best mommy blog examples that I think are worth looking at. They offer information that’s resourceful and that can make parenthood that little bit easier. Most are monetised by sponsored post and display ads."
+                        stHeading="Breifing"/>
+                </stList>
+            </dem_story>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,13 @@
+
+<sly data-sly-use.storyModel="${'com.dem.core.models.DemStoryModel'}" />
+<p class="cq-placeholder" data-emptytext="Blog Story Component" data-sly-test="${wcmmode.edit}"></p>
+
+   <div data-sly-list.storyList= "${storyModel.stList}">
+      
+      <ul class="blogs-list-container">
+         <li>
+            <h4>${storyList.stHeading}</h4>
+            <p>${storyList.stDescription}</p>
+         </li>
+  
+      </ul>

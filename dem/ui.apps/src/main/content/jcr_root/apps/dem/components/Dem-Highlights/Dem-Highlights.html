@@ -1,0 +1,13 @@
+
+
+<sly data-sly-use.highlightsModel="${'com.dem.core.models.DemHighlightsModel'}" />
+<p class="cq-placeholder" data-emptytext="Blog Highlights Component" data-sly-test="${wcmmode.edit}"></p>
+<div class="blog-highlighted-content">
+   <ul data-sly-list.highlightsList="${highlightsModel.hltItems}">
+      <li>
+         <h4>${highlightsList.hltHead}</h4>
+         <p>${highlightsList.hltDesc}</p>
+      </li>
+   </ul>
+</div>
+

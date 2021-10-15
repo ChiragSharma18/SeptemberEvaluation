@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-10-14T12:41:10.935+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/dem/settings/wcm/templates/demtemplate"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="SampleBlog1"
+        sling:resourceType="dem/components/xfpage"
+        blogPublishDate="2 August 2021"
+        blogThumbnail="/content/dam/dem/asset.jpg"
+        blogTitle="SampleBlog1"
+        territoryId="1234">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid"
+            layout="responsiveGrid">
+            <dem_blogheader
+                jcr:created="{Date}2021-09-29T13:20:12.755+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:41:10.932+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-BlogHeader"
+                bgDesc="So when I talk about coming at a niche from a different angle, this example is exactly what I mean. Skint Dad is a site that helps young / new dads save money and be more frugal in their day to day living. There’s also a section on their that shows guys how to make a little more cash on top of their monthly day job wage, which is vital in some cases just to keep your head above water.  A lot of new dads have the added stress of not having their wives’ or girlfriends’ wage coming in each month, due to the temporary career change in being a full time mum of a baby. So having some content around how they can make a few extra “Ps” in their wallet each month, can ease the burden somewhat."
+                bgImage="/content/dam/dem/asset.jpg"
+                pghead="Sample Blog 1 "
+                textIsRich="true"/>
+            <dem_contactcard
+                jcr:created="{Date}2021-09-29T13:24:49.735+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:37:07.312+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-ContactCard"
+                conthead="Contact">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+                <contlist jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        contdesignation="Trainee"
+                        contemail="Chirag.sharma5233@gmail.com"
+                        contimage="/content/dam/dem/asset.jpg"
+                        contname="Chirag Kumar Sharma"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        contdesignation="Trainee"
+                        contemail="harshit.abrol54545@gmail.com"
+                        contimage="/content/dam/dem/asset.jpg"
+                        contname="Harshit Abrol"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        contdesignation="Developer"
+                        contimage="/content/dam/dem/asset.jpg"
+                        contname="Nowsheen"/>
+                </contlist>
+            </dem_contactcard>
+            <dem_highlights
+                jcr:created="{Date}2021-09-29T13:25:10.051+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:39:16.074+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-Highlights">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="9"/>
+                </cq:responsive>
+                <hltItems jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        hltDesc="A very well designed and slick blog that’s all about being your own boss and creating your own wealth. It’s a blog with a very active podcast feed. Their podcasts are insanely popular on itunes, and no doubt they make a fair bit of money from selling ad space on those podcasts. Podcasts is something to think about when creating your blog as it could be a great monetization tool."
+                        hltHead="Highlights 1"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        hltDesc="A very inspiring blog that contains motivational stories about startups and the people who work in them and create them. If you need a pick me up after a bad day at the office or think that you can’t become that person who goes it along and starts up something awesome, then why not have a read. You’ll soon hear about people who literally only had the shirt on their backs and who rose up to be a success in business and in life."
+                        hltHead="Highlights 2"/>
+                </hltItems>
+            </dem_highlights>
+            <dem_story
+                jcr:created="{Date}2021-09-29T13:25:51.163+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-14T12:39:09.666+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dem/components/Dem-Story"
+                stHead="Story">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="9"/>
+                </cq:responsive>
+                <stList jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        stDescription="One of my favourite type of Blog is the “tech blog”.  Now this isn’t something new to blog about, as Tech bloggers have been blogging about technology news and gadget reviews in detail online since the beginning of the internet, But because it’s such a vast niche, you could carve out yourself a really good angle within the tech blog sphere. The trick is to have your own take on tech and don’t just follow the trend. One area which hasn’t really been covered specifically is eco tech, so something to think about. Maybe a blog specifically covering tech aimed at becoming more environmentally conscious."
+                        stHeading="Introduction"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        stDescription="Knowtechie is a great example of a site that started out as a hobby but has fast become a business. I like the angle they have as well. “Tech News For The Non Techie”. KnowTechie is a blog for people who love tech, but live outside the bubble. This is so refreshing, because so many tech blogs out there are a bit too technical and full to the brim of jargon. It’s nice to see a tech blog that has lowered the entry level to tech news."
+                        stHeading="Breifing"/>
+                </stList>
+            </dem_story>
+        </root>
+    </jcr:content>
+</jcr:root>
